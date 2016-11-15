@@ -1,0 +1,226 @@
+@import "_global";
+@import "variables";
+@import "components/page-header";
+@import "components/promo";
+@import "components/forms";
+@import "components/page-footer";
+
+
+
+
+
+
+/********* @MEDIA *********/
+
+
+
+
+
+
+@media (min-width: 1280px) {
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+	.inner {
+		margin: 0;
+	}
+	.find-form--input-pos {
+		margin-left: 0px;
+	}
+	.find-menu__inner {
+		margin: 0 13%;
+	}
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.inner {
+ 		margin: 0;
+	}
+	.container-fluid>.navbar-collapse,
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container>.navbar-header {
+		margin: 0;
+	}
+
+	ul.navbar-nav li:nth-child(2) {
+    	padding-right: 0px;
+	}
+
+	ul.navbar-nav li:nth-child(3) {
+    	padding-left: 0px;
+	}
+
+	.navbar-nav {
+    	margin: 0;
+    	padding-top: 20px;
+    	background-color: @blue-bg;
+	}
+	
+	.navbar-default .navbar-nav>li>a {
+		color: @white;
+	}
+
+	.navbar-default .navbar-toggle {
+    	border: none; 
+    	margin-right: 25px;
+
+    	.icon-bar {
+    		    background-color: @blue-bg;
+    	}
+	}
+
+	.jumbotron {
+		background-image: url("../img/bg-body-768.png") round center;
+	}
+
+	.navbar-default {
+		background-color: @white;
+	}
+	.promo__heading {
+		width: 300px;
+	}
+	.promo-items {
+		position: relative;
+		text-align: left;
+		padding-left: 80px;
+		padding-top: 40px;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+	.promo-items--last {
+		padding-bottom: 30px;
+	}
+	.promo-item {
+		min-height: 0;
+
+		h2 {
+			width: 210px;
+			font-weight: bold;
+			margin-top: 30px;
+		}
+
+		p {
+			padding-bottom: 30px;
+		}
+	}
+	.promo-items--icon {
+		position: absolute;
+		left: 20px;
+		top: -25px;
+		height: 40px;
+		width: 40px;
+	}
+	.promo-items .promo-items--icon {
+		height: 45px;
+		width: 45px;
+		background-size: 80%;
+		background-position: 8px 0;
+
+	}
+	.promo__img--small {
+		display: none;
+	}
+	hr {
+		border-color: #d6d6d6;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.hr--header {
+		width: 100%;
+		box-shadow: 0 0 0px #d6d6d6;
+	}
+	.hr--shadow {
+		box-shadow: 0px 5px 10px 3px #000;
+	}
+	.find-menu__inner {
+		margin: 0;
+	}
+	.find-menu__header {
+		background-color: @white;
+		margin: 0;
+		padding-top: 30px;
+		padding-left: 5%;
+		padding-right: 5%;
+
+		p {
+			padding-bottom: 30px;
+			margin-bottom: 90px;
+		}
+		h1 {
+			margin-top: 0;
+			font-size: @font-size-h2;
+		}
+
+	}
+	.popup-position {
+		position: relative;
+	}
+	.popup-block {
+		max-height: 480px;
+	}
+
+	.find-form {
+		padding: 20px;
+		padding-bottom: 50px;
+
+		span {
+			margin-left: 15px;
+		}
+	}
+	.social-link {
+	    padding: 0;
+
+	    li {
+	    	padding-right: 0px;
+	    	padding-left: 5px;
+	    }
+	    a {
+	   		padding: 0;
+	    }
+	    .social-link--style social-link__yt {
+	    	margin: 0;
+	    }
+	}
+	.map iframe {
+		height: 590px;
+	}
+	.find-form label:nth-child(4) {
+	    margin-bottom: 50px;
+	}
+	.page-footer__row {
+		padding-top: 0;
+		margin-boottom: 0;
+	}
+	.sedona_logo {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	.social-link {
+		width: 140px;
+	}
+	.footer__autor {
+		margin-bottom: 20px;
+	}
+
+
+	.page-footer .row .social-link {
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+@media (max-width: 320px) {
+	
+}
